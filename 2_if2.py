@@ -18,7 +18,7 @@
 def main():
     
     def compare(text1, text2):
-        if (isinstance(text1, str) and isinstance(text2, str)) == False: # Почитать документацию по функции
+        if (isinstance(text1, str) and isinstance(text2, str)) == False:
             return 0
         elif text1 == text2:
             return 1
